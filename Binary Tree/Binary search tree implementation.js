@@ -1,4 +1,4 @@
-//implementing a binary search tree by andrew neagoie 
+//implementing a binary search tree from the scratch
 //at the end we are gonna make the following binary tree by inserting those data
 //          9
 //     4          20
