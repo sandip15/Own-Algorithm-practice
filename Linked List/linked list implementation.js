@@ -79,7 +79,7 @@ class LinkedList{
     let nextNodetoIndex = deletingNode.next
 
     previousNodeToIndex.next = nextNodetoIndex;
-    this.length --;
+    this.length --;    // after removing the element decrease the length of the tree by 1
     return this.printLinkedList();
 
   }
