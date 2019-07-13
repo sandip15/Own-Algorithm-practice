@@ -42,7 +42,7 @@ class BinarySearchTree{
     }
   }
 
-  lookup(value){
+  lookup(value){                //searching for a value if that is present in the tree
     if (this.root === null){
       return "emptry tree"
     }else{
