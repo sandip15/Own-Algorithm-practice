@@ -1,6 +1,6 @@
 // fibonacci number sequence : 0,1,1,2,3,5,8,13,21,34,55,89,144......
 //find the fibonacci number of the given index(n)
-
+// use both the iterative and recursive approach
 
 function fibonacciIterative(n){
   //iterative solution
@@ -15,7 +15,7 @@ function fibonacciIterative(n){
   return arr[n];
 }
 function fibonacciRecursion(n){
-  //recursion solution
+  //recursive  solution
   if (n<2){
     return n;
   }
