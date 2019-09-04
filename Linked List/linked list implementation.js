@@ -30,7 +30,7 @@ class LinkedList{
     return this;
   }
 
-  //print all the values in a array for a better result and clear understanding 
+  //print all the values in an array for a better result and clear understanding 
 
   printLinkedList(){
     const arr = []
@@ -42,7 +42,7 @@ class LinkedList{
     console.log(arr);
   }
 
-  //inseting elements in the middle of the linked list 
+  //inseting the elements in the middle of the linked list 
   insert(index, value){
     if (index >= this.length){
       return this.append(value)
