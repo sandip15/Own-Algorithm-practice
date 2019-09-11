@@ -7,7 +7,7 @@ class Node{
   }
 }
 class Stack {
-  constructor(){              // initially both the pointer is pointing to the null since there is no node inside.
+  constructor(){              // initially both the pointer is pointing to the null since there is no node inside. later on we shift those pointers 
     this.top = null;
     this.bottom = null;
     this.length = 0;
