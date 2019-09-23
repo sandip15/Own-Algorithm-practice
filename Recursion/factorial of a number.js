@@ -1,5 +1,5 @@
 //implement factorial of a number by both recursive and iterative way
-
+//generally recursive way the space complexity is bit high, and vice versa
 function factorialIterative(number){
   //interative solution
   let answer = 1;
