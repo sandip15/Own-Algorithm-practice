@@ -55,3 +55,5 @@ myStack.peek()
 myStack.peek()
 myStack.pop()
 myStack.pop()
+
+// Implement the queue data structure:
