@@ -1,5 +1,6 @@
 //implementing a binary search tree from the scratch
 //at the end we are gonna make the following binary tree by inserting those data
+// The binary should be like the following
 //          9
 //     4          20
 // 1       6   15     170
@@ -44,7 +45,7 @@ class BinarySearchTree{
 
   lookup(value){                //searching for a value if that is present in the tree
     if (this.root === null){
-      return "emptry tree"
+      return ": tree"
     }else{
       let currentNode = this.root
       while(currentNode){
