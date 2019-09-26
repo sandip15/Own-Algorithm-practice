@@ -1,4 +1,5 @@
 //implement a stack data structure using a linked list
+// Stack is a data structure where the last element inserted gets out first. (LIFO)
 
 class Node{
   constructor(value){
