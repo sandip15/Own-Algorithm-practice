@@ -1,4 +1,5 @@
  //implementation of bubble sort algorithm 
+//afer every round one element gets sorted
  
 function bubbleSort(arr){
   for (let i=0; i<arr.length-1; i++){
