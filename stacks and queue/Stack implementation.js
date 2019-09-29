@@ -1,7 +1,7 @@
 //implement a stack data structure using a linked list
 // Stack is a data structure where the last element inserted gets out first. (LIFO)
 
-class Node{
+class Node{                            //defining the structure of the node 
   constructor(value){
     this.value = value;
     this.next = null;
@@ -26,7 +26,7 @@ class Stack {
     this.length++;
     // return this;
   }
-  peek(){
+  peek(){                             // look for the element at the top
     return this.top;
   }
   pop(){ //removing the last item added to the stack 
