@@ -1,7 +1,7 @@
 /* implementing the linked list data structure and also some different operations of linked list for having a better 
 understanding about how this data structure works underneath the hood */
 
-class Node{
+class Node{             /// structure of the node 
   constructor(value){
     this.value = value
     this.next = null
