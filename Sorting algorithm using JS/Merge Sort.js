@@ -23,7 +23,7 @@ var merge = function(array, p, q, r) {
     j = 0;
     
     /*  Repeatedly compare the lowest untaken element in
-    lowHalf with the lowest untaken element in highHalf
+    low Half with the lowest untaken element in high Half
     and copy the lower of the two back into array */
     
     while (i<lowHalf.length && j< highHalf.length){
@@ -49,7 +49,7 @@ var merge = function(array, p, q, r) {
     
         
     
-    /* Once one of lowHalf and highHalf has been fully copied back into array, copy the remaining elements from the other temporary array back into the array */
+    /* Once one of low Half and high Half has been fully copied back into array, copy the remaining elements from the other temporary array back into the array */
     
 };
 
