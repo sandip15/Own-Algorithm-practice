@@ -1,8 +1,8 @@
 //.................................... Merge Sort ...................................................
 
-// exercise of implementing merge sort from khan Academy algorithm practice 
-// Takes in an array that has two sorted subarrays from [p..q] and [q+1..r], and merges the array
-// time complexity of merge sort is 0(nlogn);
+/* exercise of implementing merge sort from khan Academy algorithm practice 
+Takes in an array that has two sorted subarrays from [p..q] and [q+1..r], and merges the array time complexity 
+of merge sort is 0(nlogn); */
 
 var merge = function(array, p, q, r) {
     var lowHalf = [];
@@ -49,7 +49,8 @@ var merge = function(array, p, q, r) {
     
         
     
-    /* Once one of low Half and high Half has been fully copied back into array, copy the remaining elements from the other temporary array back into the array */
+    /* Once one of low Half and high Half has been fully copied back into array, copy the remaining elements
+    from the other temporary array back into the array */
     
 };
 
