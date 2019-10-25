@@ -12,7 +12,7 @@ function factorialIterative(number){
 }
 
 function factorialRecursive(number){
-  //recursive solution
+  //recursive solution of the same problem
   if (number === 1){
     return 1
   }
