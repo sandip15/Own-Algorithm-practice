@@ -5,7 +5,7 @@
 //     4          20
 // 1       6   15     170
 
-class Node {
+class Node {              // structure of node 
   constructor(value){
     this.value = value;
     this.left = null;
@@ -63,6 +63,7 @@ class BinarySearchTree{
 }
 
 const tree = new BinarySearchTree
+// using the insert function need to insert some values first
 tree.insert(9)
 tree.insert(4)
 tree.insert(20)
