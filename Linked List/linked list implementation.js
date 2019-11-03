@@ -15,14 +15,14 @@ class LinkedList{
     this.tail =this.head;
     this.length = 1
   }
-  append(val){                                   //adding element at the last
+  append(val){                                   //adding element at the last of the linked list
     const newNode  = new Node(val)
     this.tail.next = newNode;
     this.tail = newNode;
     this.length++;
     return this;
   }
-  prepend(val){                                  // adding element at the beginning
+  prepend(val){                                  // adding element at the beginning of the linked list
     const newNode = new Node(val);
     newNode.next = this.head
     this.head = newNode;
