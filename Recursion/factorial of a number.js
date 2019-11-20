@@ -3,7 +3,7 @@
 (created by multiple function calls)on the top of other and not releasing those stacks, and vice versa */
 
 function factorialIterative(number){
-  //interative solution
+  //solution using interative approach
   let answer = 1;
   for (let i=1; i<= number ; i++){
     answer *= i;
@@ -12,7 +12,7 @@ function factorialIterative(number){
 }
 
 function factorialRecursive(number){
-  //recursive solution of the same problem
+  //solution using recursive approach of the same problem
   if (number === 1){
     return 1
   }
