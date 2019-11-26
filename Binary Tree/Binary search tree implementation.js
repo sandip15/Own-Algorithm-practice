@@ -5,7 +5,7 @@
 //     4          20
 // 1       6   15     170
 
-class Node {              // structure of node 
+class Node {              // basic structure of the node 
   constructor(value){
     this.value = value;
     this.left = null;
@@ -17,7 +17,7 @@ class BinarySearchTree{
   constructor(){
     this.root = null;
   }
-  insert(value){
+  insert(value){      // function to insert a value to the binary tree
     let newNode = new Node(value);
     if (this.root === null){
       this.root = newNode;
@@ -43,15 +43,15 @@ class BinarySearchTree{
     }
   }
 
-  lookup(value){                //searching for a value if that is present in the tree
+  lookup(value){                //searching for a value if that is present in the binary tree
     if (this.root === null){
       return ": tree"
     }else{
       let currentNode = this.root
       while(currentNode){
-        if (value < currentNode.value){           //traverse the  left side of the tree
+        if (value < currentNode.value){           //traverse the  left side of the binary tree
           currentNode = currentNode.left;
-        }else if(value > currentNode.value){      // traverse the right side of the tree
+        }else if(value > currentNode.value){      // traverse the right side of the binary tree
           currentNode = currentNode.right;
         }else if(currentNode.value === value){
           return currentNode
