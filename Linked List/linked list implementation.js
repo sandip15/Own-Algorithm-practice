@@ -67,7 +67,7 @@ class LinkedList{
     return currentNode;
   }
   
-  //removing the node according to the given index
+  //removing the node according to the position of the given index
   removeNode(index){
     if (index === 0){
       this.head = this.head.next
@@ -79,7 +79,7 @@ class LinkedList{
     let nextNodetoIndex = deletingNode.next
 
     previousNodeToIndex.next = nextNodetoIndex;
-    this.length --;    // after removing the element decrease the length of the tree by 1
+    this.length --;    // after removing the element we need to decrease the length of the tree by 1
     return this.printLinkedList();
 
   }
@@ -88,7 +88,7 @@ class LinkedList{
 
 const myLinkedList = new LinkedList(10);
 
-//some test to see the result of the previous operations
+//some tests to see the result of the previous operations
 myLinkedList.append(5);
 myLinkedList.append(15);
 myLinkedList.prepend(1);
