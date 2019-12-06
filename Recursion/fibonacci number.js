@@ -2,8 +2,7 @@
 //find the fibonacci number of the given index(n)
 // use both the iterative and recursive approach to solve this approach
 
-function fibonacciIterative(n){
-  //iterative solution
+function fibonacciIterative(n){         //iterative approach
   let arr =[0,1];
   for (let i=2 ;i<=n; i++){
     arr.push(arr[i-2]+arr[i-1]);
@@ -14,8 +13,7 @@ function fibonacciIterative(n){
   }
   return arr[n];
 }
-function fibonacciRecursion(n){
-  //recursive  solution
+function fibonacciRecursion(n){          // recursive approach
   if (n<2){
     return n;
   }
