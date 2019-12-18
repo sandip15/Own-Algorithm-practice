@@ -88,7 +88,7 @@ class LinkedList{
 
 const myLinkedList = new LinkedList(10);
 
-//some tests to see the result of the previous operations
+// performing few tests to see the result of the previous operations
 myLinkedList.append(5);
 myLinkedList.append(15);
 myLinkedList.prepend(1);
