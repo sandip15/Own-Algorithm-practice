@@ -44,7 +44,7 @@ class Stack {
   }
 }
 
-const myStack = new Stack                 //instantiating new stack 
+const myStack = new Stack                 //instantiating new stack created before
 
 myStack.push(5)
 myStack.push(10)
