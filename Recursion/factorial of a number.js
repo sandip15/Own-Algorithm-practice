@@ -3,7 +3,7 @@
 (created by multiple function calls)on the top of other and not releasing those stacks, and vice versa */
 
 function factorialIterative(number){
-  //solution using interative approach
+  //solution using interative approach （ generally slower than the recursive approach)
   let answer = 1;
   for (let i=1; i<= number ; i++){
     answer *= i;
