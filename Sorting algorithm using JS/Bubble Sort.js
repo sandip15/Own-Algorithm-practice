@@ -1,4 +1,4 @@
- //implementation of bubble sort algorithm 
+ //implementation of bubble sort algorithm from scratch 
 //afer every round one element gets sorted at its right place
  
 function bubbleSort(arr){
