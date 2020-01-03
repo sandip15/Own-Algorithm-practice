@@ -1,7 +1,7 @@
 /* implementing the linked list data structure and also some different operations of linked list for having a better 
 understanding about how this data structure works underneath the hood */
 
-class Node{             /// basic structure of the node 
+class Node{             /// Overall basic structure of the node 
   constructor(value){
     this.value = value
     this.next = null
@@ -15,14 +15,14 @@ class LinkedList{
     this.tail =this.head;
     this.length = 1
   }
-  append(val){                                   //adding element at the last of the linked list
+  append(val){                                   //adding element at the very last of the linked list
     const newNode  = new Node(val)
     this.tail.next = newNode;
     this.tail = newNode;
     this.length++;
     return this;
   }
-  prepend(val){                                  // adding element at the beginning of the linked list
+  prepend(val){                                  // adding element at the very beginning of the linked list
     const newNode = new Node(val);
     newNode.next = this.head
     this.head = newNode;
