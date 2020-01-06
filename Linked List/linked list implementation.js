@@ -42,7 +42,7 @@ class LinkedList{
     console.log(arr);
   }
 
-  //inseting the elements in the middle of linked list 
+  //inseting elements in the middle of linked list 
   insert(index, value){
     if (index >= this.length){
       return this.append(value)
