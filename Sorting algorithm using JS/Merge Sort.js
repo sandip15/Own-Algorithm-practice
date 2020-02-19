@@ -22,7 +22,7 @@ var merge = function(array, p, q, r) {
     i = 0;
     j = 0;
     
-    /*  we should Repeatedly compare the lowest untaken element in low Half with the lowest untaken element in high Half
+    /*  Repeatedly comparing the lowest untaken element in low Half with the lowest untaken element in high Half
     and copy the lower of the two back into array */
     
     while (i<lowHalf.length && j< highHalf.length){
@@ -54,7 +54,7 @@ var merge = function(array, p, q, r) {
 };
 
 
-// Takes in an array and recursively merge sorts it
+// Takes in an array as input and recursively merge sorts it
 var mergeSort = function(array, p, r) {
     if(p<r){
         var q = Math.floor((p+r)/2);
