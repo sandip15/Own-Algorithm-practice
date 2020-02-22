@@ -1,4 +1,4 @@
-//implement factorial of a number by both recursive and iterative way
+//Question: implement factorial of a number by both recursive and iterative way
 /*generally by recursive way the space complexity is bit high due to adding of multiple stacks 
 (created by multiple function calls)on the top of other and not releasing those stacks, and vice versa */
 
