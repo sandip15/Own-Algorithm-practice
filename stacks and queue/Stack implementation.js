@@ -1,7 +1,7 @@
 // Our given task is to implement a stack data structure using a linked list
 // Stack is a data structure where the last element inserted gets out first. (LIFO)
 
-class Node{                            //defining the overall structure of the node (to be used leter)
+class Node{                            //defining the basic structure of the node (to be used leter)
   constructor(value){
     this.value = value;
     this.next = null;
