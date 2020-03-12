@@ -22,7 +22,7 @@ class LinkedList{
     this.length++;
     return this;
   }
-  prepend(val){                                  // adding element at the very beginning of the linked list
+  prepend(val){                                  // adding one element at the very beginning of the linked list
     const newNode = new Node(val);
     newNode.next = this.head
     this.head = newNode;
@@ -30,7 +30,7 @@ class LinkedList{
     return this;
   }
 
-  //print all the values in an array for a better result and clear understanding 
+  //printing out all the values in an array for a better result and clear understanding 
 
   printLinkedList(){
     const arr = []
@@ -56,7 +56,7 @@ class LinkedList{
     this.length++
     return this.printLinkedList()
   }
-  /*first by traversing the linked list we need to find the position to insert the new node according to the given index */
+  /*First by traversing the linked list we need to find the position to insert the new node according to the given index */
   traverseToIndex(index){
     let currentNode = this.head;
     let counter = 0;
@@ -67,7 +67,7 @@ class LinkedList{
     return currentNode;
   }
   
-  //removing the node according to the position of the given index
+  //Removing the node according to the position of the given index
   removeNode(index){
     if (index === 0){
       this.head = this.head.next
