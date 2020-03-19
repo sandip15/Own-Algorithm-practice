@@ -1,5 +1,5 @@
  // Question: Implementation of bubble sort algorithm from scratch 
-//afer every round one element gets sorted at its right place
+//afer completing every round one element gets sorted at its right place
  
 function bubbleSort(arr){
   for (let i=0; i<arr.length-1; i++){
