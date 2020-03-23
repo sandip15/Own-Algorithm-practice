@@ -63,7 +63,7 @@ class BinarySearchTree{
 }
 
 const tree = new BinarySearchTree
-// using the insert function need to insert some values first
+// implementing the insert function: need to insert some values first
 tree.insert(9)
 tree.insert(4)
 tree.insert(20)
