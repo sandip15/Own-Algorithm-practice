@@ -1,4 +1,4 @@
-//Question: Implement a binary search tree from the scratch
+//Question: need to Implement a binary search tree from the scratch
 //At the end we are gonna make the following binary tree by inserting those data
 // structure of the tree: The binary tree should look like the following
 //          9
