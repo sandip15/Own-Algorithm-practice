@@ -1,6 +1,6 @@
 // Example of fibonacci number sequence : 0,1,1,2,3,5,8,13,21,34,55,89,144......
 // find the fibonacci number of the given index(n)
-// use both the iterative and recursive approach to solve this problem
+// use two different approach (iterative and recursive) to solve this problem
 
 function fibonacciIterative(n){         //iterative approach, faster running time than recursive approach
   let arr =[0,1];
