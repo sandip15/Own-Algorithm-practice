@@ -11,6 +11,8 @@ function factorialIterative(number){  // more time complexity but less space com
   return answer;
 }
 
+//one way to avoid recursion in javascript is by passing that function inside a setTimeout
+
 function factorialRecursive(number){
   //solution using recursive approach of the same problem
   if (number === 1){
