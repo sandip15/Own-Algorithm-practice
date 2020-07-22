@@ -5,7 +5,7 @@
 //     4          20
 // 1       6   15     170
 
-class Node {              // basic structure of the node , each node in the binary tree will have the following structure
+class Node {              // basic structure of the node , each node in the binary tree will consist of the following structure
   constructor(value){
     this.value = value;
     this.left = null;
