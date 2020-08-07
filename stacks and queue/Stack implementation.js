@@ -1,4 +1,4 @@
-// Our given task is to implement a stack data structure using a linked list
+// Implement a stack data structure using a linked list
 // Stack is a data structure where the last element inserted gets out first. (LIFO)
 
 class Node{                            //defining the basic structure of the node (to be used leter)
@@ -57,5 +57,4 @@ myStack.peek()
 myStack.pop()
 myStack.pop()
 
-// Implement the queue data structure:
-//yet to be finihed
+
