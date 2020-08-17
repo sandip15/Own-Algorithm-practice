@@ -1,7 +1,7 @@
 /* Question: implementing the linked list data structure and performing different operations of linked list for having a better 
 understanding about how this data structure works underneath the hood */
 
-class Node{             /// Overall basic structure of the node in linked list
+class Node{                      // Overall basic structure of the node in linked list
   constructor(value){
     this.value = value
     this.next = null
@@ -42,7 +42,7 @@ class LinkedList{
     console.log(arr);
   }
 
-  //inseting elements in the middle of the linked list 
+  //inseting/adding elements in the middle of the linked list 
   insert(index, value){
     if (index >= this.length){
       return this.append(value)
