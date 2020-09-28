@@ -1,5 +1,5 @@
  // Question: Implementation of bubble sort algorithm from scratch , here after completing every round one element gets sorted at its right place
-// usually runs very slow comparing with other sorting algorithm ,time complexity 0(n^2) and space complexity is 0(1)
+// usually the running time of bubble sort is very slow comparing with other sorting algorithm ,time complexity 0(n^2) and space complexity is 0(1)
 
 function bubbleSort(arr){  // takes an array as an input
   for (let i=0; i<arr.length-1; i++){
