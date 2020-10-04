@@ -14,7 +14,7 @@ class Stack {
     this.bottom = null;
     this.length = 0;
   }
-  push(value){                             //pushing new value in the stack 
+  push(value){                             //pushing new value inside the stack 
     let newnode = new Node(value)
     if (this.length === 0){            //  at the beginnig when there is no node present in the stack 
       this.top = newnode;
