@@ -43,7 +43,7 @@ class BinarySearchTree{
     }
   }
 
-  lookup(value){                //searching for a value (if that is present) in the binary tree
+  lookup(value){                //searching condition for a value (if that is present) in the binary tree
     if (this.root === null){
       return ": tree"
     }else{
@@ -63,7 +63,7 @@ class BinarySearchTree{
 }
 
 const tree = new BinarySearchTree
-// implementing the insert function: need to insert some values first
+// implementing the insert function: we need to insert some values first
 tree.insert(9)
 tree.insert(4)
 tree.insert(20)
