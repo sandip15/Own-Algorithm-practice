@@ -30,9 +30,8 @@ class LinkedList{
     return this;
   }
 
-  //printing out all the values in an array for a better result and clear understanding 
-
-  printLinkedList(){
+  
+  printLinkedList(){.  //printing out all the values in an array for a better result and clear understanding 
     const arr = []
     let currentNode = this.head;
     while(currentNode !== null){
