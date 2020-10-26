@@ -1,7 +1,7 @@
 /* Question: implementing the linked list data structure and performing different operations of linked list for having a better 
 understanding about how this data structure works underneath the hood */
 
-class Node{                      // Overall basic structure of the node in linked list
+class Node{                      // basic node structure
   constructor(value){
     this.value = value
     this.next = null
@@ -15,7 +15,7 @@ class LinkedList{
     this.tail =this.head;
     this.length = 1
   }
-  append(val){                                   //adding a new element at the very last of the linked list
+  append(val){                                   //adding a new element at the very last of that linked list
     const newNode  = new Node(val)
     this.tail.next = newNode;
     this.tail = newNode;
@@ -87,7 +87,7 @@ class LinkedList{
 
 const myLinkedList = new LinkedList(10);
 
-// performing few tests to see the result of the previous operations
+// performing few tests to see the result of the previous operations 
 myLinkedList.append(5);
 myLinkedList.append(15);
 myLinkedList.prepend(1);
