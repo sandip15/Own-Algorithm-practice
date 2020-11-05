@@ -1,9 +1,9 @@
-//Question: need to Implement a binary search tree from the scratch
-//At the end we are gonna make the following binary tree by inserting those data
-// structure of the tree: The binary tree should look like the following
+/* Question: Need to Implement a binary search tree from the scratch
+At the end we are gonna make the following binary tree by inserting those data
+structure of the tree: The binary tree should look like the following
 //          9
 //     4          20
-// 1       6   15     170
+// 1       6   15     170 */
 
 class Node {              // basic structure of the node , each node in the binary tree consists of the following structure
   constructor(value){
