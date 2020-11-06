@@ -1,4 +1,4 @@
-/* Question: implementing the linked list data structure and performing different operations of linked list for having a better 
+/* Question: Implementing the linked list data structure and performing different operations on it for having a better 
 understanding about how this data structure works underneath the hood */
 
 class Node{                      // basic node structure
@@ -88,6 +88,7 @@ class LinkedList{
 const myLinkedList = new LinkedList(10);
 
 // performing few tests to see the result of the previous operations 
+
 myLinkedList.append(5);
 myLinkedList.append(15);
 myLinkedList.prepend(1);
