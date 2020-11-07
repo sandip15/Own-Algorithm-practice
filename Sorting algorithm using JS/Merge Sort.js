@@ -1,7 +1,8 @@
 //.................................... Merge Sort algorithm implementation...................................................
 
 /* exercise of implementing merge sort from khan Academy algorithm practice 
-when the given input is an array that has two sorted subarrays from [p..q] and [q+1..r], and then  merges that array. time complexity  of merge sort is 0(nlogn); */
+when the given input is an array that has two sorted subarrays from [p..q] and [q+1..r], and then 
+merges that array. time complexity  of merge sort is 0(nlogn); */
 
 var merge = function(array, p, q, r) {
     var lowHalf = [];
@@ -53,7 +54,7 @@ var merge = function(array, p, q, r) {
 };
 
 
-// Takes in an array as input and recursively merge sorts it
+// Takes in an array as input and recursively merge sorts that array
 var mergeSort = function(array, p, r) {
     if(p<r){
         var q = Math.floor((p+r)/2);
