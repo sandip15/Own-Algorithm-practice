@@ -25,7 +25,7 @@ class BinarySearchTree{
       let presentNode = this.root;
       while(true){
         if (value < presentNode.value){
-              //traverse the left of the tree 
+              //traversing the left of the tree 
           if (!presentNode.left){
             presentNode.left = newNode;
             return this;
