@@ -1,7 +1,7 @@
 // Example of fibonacci number sequence : 0,1,1,2,3,5,8,13,21,34,55,89,144......
 // find the fibonacci number of the given index(n), using two different approach (iterative and recursive) to solve this problem
 
-function fibonacciIterative(n){         //iterative approach, faster running time than recursive approach
+function fibonacciIterative(n){         //iterative approach, usually faster running time than recursive approach
   let arr =[0,1];
   for (let i=2 ;i<=n; i++){
     arr.push(arr[i-2]+arr[i-1]);
@@ -12,7 +12,7 @@ function fibonacciIterative(n){         //iterative approach, faster running tim
   }
   return arr[n];
 }
-function fibonacciRecursion(n){          // recursive approach, slower running time than iterative approach
+function fibonacciRecursion(n){          // recursive approach, normally slower running time than iterative approach
   if (n<2){
     return n;
   }
