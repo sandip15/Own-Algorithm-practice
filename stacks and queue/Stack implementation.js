@@ -1,5 +1,5 @@
-/* Need to Implement a stack data structure using a linked list
-**** Stack is a data structure where the last element inserted gets out first. (LIFO)**** */
+/* Need to Implement a stack using a linked list
+**** Stack is a data structure where the last element inserted gets out first. (LIFO)****  */
 
 class Node{                            //defining the basic structure of the node (to be used leter)
   constructor(value){
@@ -37,7 +37,7 @@ class Stack {
     if (this.top === this.bottom){
       this.bottom = null;
     }
-    this.top = this.top.next; //we just move the pointer pointing to the top to the next node to get rid of the top most node
+    this.top = this.top.next;         //  Moving the pointer pointing to the top to the next node to get rid of the top most node
     
     this.length --;
     return this;
