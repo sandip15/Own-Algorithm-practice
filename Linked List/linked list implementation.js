@@ -1,5 +1,4 @@
-/* Question: Implementing the linked list data structure and performing different operations on it for having a better 
-understanding about how this data structure works underneath the hood */
+/* Question: Implementing the linked list data structure */
 
 class Node{                      // basic node structure
   constructor(value){
