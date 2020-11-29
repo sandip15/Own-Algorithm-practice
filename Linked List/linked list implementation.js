@@ -1,4 +1,4 @@
-/* Question: Implementing the linked list data structure */
+/* Question: Implementing the linked list data structure from scratch*/
 
 class Node{                      // basic node structure
   constructor(value){
